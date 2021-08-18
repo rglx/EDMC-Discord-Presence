@@ -1,44 +1,42 @@
 /* Language name */
 "!Language" = "English";
 
-/* Idle message. [load.py] */
-"Connecting CMDR Interface" = "Connecting CMDR Interface";
+/* plugin initialization & UI stuff */
+"Plugin initializing..." = "Plugin initializing..."; /* before plugin finishes starting up */
+"Connecting to game..." = "Connecting to game..."; /* after plugin initialization, but before game's detected by EDMC */
+"{plugin_name} v{plugin_version}, by {plugin_author}" = "{plugin_name} v{plugin_version}, by {plugin_author}";
+"Discord:" = "Discord:" /* plugin label (shown in EDMC UI) */
 
-/* Details of system. [load.py] */
-"In system {system}" = "In system {system}";
+/*activities not near planets/stations*/
+"Entering supercruise" = "Entering supercruise";
+"In supercruise" = "In supercruise";
+"Flying around the surface" = "Flying around the surface";
+"Flying in deep space" = "Flying in deep space";
+"Jumping ... somewhere?" = "Jumping ... somewhere?"; /* only shown if we don't know where we're jumping */
 
-/* If docked. [load.py] */
-"Docked at {station}" = "Docked at {station}";
+"Entering witchspace" = "Entering witchspace";
 
-/* While jumping. [load.py] */
-"Jumping" = "Jumping";
 
-/* If Hyperspace jumping. [load.py] */
-"Jumping to system {system}" = "Jumping to system {system}";
+/*station-related activities*/
+" (pad #{landingPadNumber})" = " (pad #{landingPadNumber})";
+"Flying near {stationName}" = "Flying near {stationName}";
+"Docking to {stationName}" = "Docking to {stationName}";
+"Docked at {stationName}" = "Docked at {stationName}";
+"Launching from {stationName}" = "Launching from {stationName}";
 
-/* If Supercruise jumping. [load.py] */
-"Preparing for supercruise" = "Preparing for supercruise";
+/* planet-related activities */
+"In orbital cruise" = "In orbital cruise";
+"Landed on the surface" = "Landed on the surface"; /* landed */
+"Flying above the surface" = "Flying above the surface"; /* in normalspace above the surface somewhere */
+"Flying around the surface" = "Flying around the surface" /* orbital cruise, specifically */
+/* on the surface activities */
+"Driving on the surface" = "Driving on the surface";
+"Walking around" = "Walking around" /* NOTE: this is ALSO used if you're in an orbital station's concourse, so don't be specific. */
 
-/* When supercruising. [load.py] */
-"Supercruising" = "Supercruising";
 
-/* When in normal space. [load.py] */
-"Flying in normal space" = "Flying in normal space";
-
-/* When in normal space and near a station. [load.py] */
-"Flying near {station}" = "Flying near {station}";
-
-/* When approaching a body. [load.py] */
-"Approaching {body}" = "Approaching {body}";
-
-/* When landed on a body. [load.py] */
-"Landed on {body}" = "Landed on {body}";
-
-/* After taking off from a body. [load.py] */
-"Flying around {body}" = "Flying around {body}";
-
-/* When in SRV. [load.py] */
-"In SRV on {body}" = "In SRV on {body}";
-
-/* When in SRV and ship has taken off. [load.py] */
-"In SRV on {body}, ship in orbit" = "In SRV on {body}, ship in orbit";
+/* locations */
+"Unknown System" = "Unknown System";
+"Dead!" = "Dead!"; /* :( */
+"In {system}" = "In {system}";
+"In {system}, near {nearby}" = "In {system}, near {nearby}";
+"body" = "body"; /* as in, planet/moon/star/asteroid field/ring, not "human" */
