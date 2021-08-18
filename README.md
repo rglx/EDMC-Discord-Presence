@@ -9,7 +9,7 @@ Show your current location and activity to everyone on Discord from your user pr
 ## Installation
 
 1. [Install Elite Dangerous Market Connector](https://github.com/EDCD/EDMarketConnector), and optionally set up your Inara and EDSM accounts with it. Help the community!
-2. Download the latest version of the plugin from [here](/releases). Make sure to download the release `.zip` and not the source code bundle.
+2. Download the latest version of the plugin from [here](//releases/latest). Make sure to download the release `.zip` and not the source code bundle.
 3. Open/Switch to Elite Dangerous Market Connector, then go to File -> Settings.
 
 ![An image of a menu entry marked "Settings" inside ED Market Connector's main "File" menu](.github/readme-2.png)
@@ -32,7 +32,7 @@ There isn't any! Just plug & play.
 
 ## Contributing, translations, and bug reports!
 
-If you find a bug or an inconsistency, check the [Issues](</issues>) section of this repository!
+If you find a bug or an inconsistency, check the [Issues](//issues) section of this repository!
 
 If you know another language, [some buffoon](<https://github.com/rglx/>) removed all the old translations when the code was reworked for 4.0. Help translate, please! (and i'm sorry i didnt mean to destroy all that hard work)
 
