@@ -4,7 +4,7 @@ A plugin for [Elite Dangerous Market Connector](https://github.com/Marginal/EDMa
 
 Show your current location and activity to everyone on Discord from your user profile!
 
-![An image of someone's Discord user card, showing richer information from the game Elite: Dangerous](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyMAAAJgCAYAAACZaLyzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAADAGSURBVHhe7d0)
+![An image of someone's Discord user card, showing richer information from the game Elite: Dangerous](.github/readme-1.png)
 
 ## Installation
 
@@ -12,15 +12,15 @@ Show your current location and activity to everyone on Discord from your user pr
 2. Download the latest version of the plugin from [here](releases). Make sure to download the release `.zip` and not the source code bundle.
 3. Open/Switch to Elite Dangerous Market Connector, then go to File -> Settings.
 
-![An image of a menu entry marked "Settings" inside ED Market Connector's main "File" menu](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAAChCAYAAAAV8lfWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABqwSURBVHhe7Z3Pz17FdcdfZMtKWBIcQxKCIUR6DSmJqQNuFahbaAmJ1CjESYyJA26TFtuJDZS6i7CgatNGoWrLhqr)
+![An image of a menu entry marked "Settings" inside ED Market Connector's main "File" menu](.github/readme-2.png)
 
 4. Switch to the "Plugins tab", then click the "Open" button
 
-![This one! Last tab on the right, first big button.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUsAAABYCAYAAAB8gtUfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAWjSURBVHhe7d29SiNdGMDxaRRbKxtFwdQqCNqksLKwEiyEFNsavIGQIsI2SZ0iuYK5AO)
+![This one! Last tab on the right, first big button.](.github/readme-3.png)
 
 5. Extract the release `.zip` you downloaded in step 2, and put the folder that comes out (it should contain a `load.py` and a few other things) into it.
 
-![Inside the folder it should look like this: a bunch of files and folders inside a folder inside EDMC's main plugins folder.](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAl0AAAD7CAYAAABQWCHxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAADgPSURBVHhe7Z3djybHXe)
+![Inside the folder it should look like this: a bunch of files and folders inside a folder inside EDMC's main plugins folder.](.github/readme-4.png)
 
 6. Restart EDMC. You should see the plugin tell you it's starting up or similar on EDMC's main window.
 
