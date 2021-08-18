@@ -2,12 +2,14 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
-# dylib
 *.dylib
+*.so
+**dll
+
+# compiled discord API libraries (which shouldn't be on GitHub in the repository)
+/lib/
 
 # C extensions
-*.so
 
 # Distribution / packaging
 .Python
